@@ -11,7 +11,7 @@ provider "random" {
 }
 resource "random_pet" "server" {
   keepers = {
-    # Generate a new pet name on each apply
+    # Generates a new pet name on each apply
   }
 }
 
